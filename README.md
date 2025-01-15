@@ -26,15 +26,15 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 
-1. Clone the repository:
+1.  Clone the repository:
 
-   ```
-   git clone https://github.com/utkarshhhhh/yip-yap.git
-   ```
+    ```
+    git clone https://github.com/utkarshhhhh/yip-yap.git
+    ```
 2.  Install server dependencies and start server:
-   ```
-   cd backend && yarn && yarn dev
-   ```
+    ```
+    cd backend && yarn && yarn dev
+    ```
 3.  Install client dependencies and start server:
     ```
     cd frontend && yarn && yarn start
