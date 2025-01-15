@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="90" fill="#FF6B4E"/>
+  
+  <!-- Main speech bubble body (as a dog face) -->
+  <path d="
+    M50 100
+    C50 70 150 70 150 100
+    C150 140 120 150 100 150
+    C80 150 50 140 50 100
+    Z" 
+    fill="white"/>
+    
+  <!-- Pointy ear left -->
+  <path d="M60 90 L40 60 L80 80 Z" fill="white"/>
+  
+  <!-- Pointy ear right -->
+  <path d="M140 90 L160 60 L120 80 Z" fill="white"/>
+  
+  <!-- Eyes -->
+  <circle cx="80" cy="105" r="6" fill="#FF6B4E"/>
+  <circle cx="120" cy="105" r="6" fill="#FF6B4E"/>
+  
+  <!-- Cute smile -->
+  <path d="M85 125 Q100 135 115 125" 
+        fill="none" 
+        stroke="#FF6B4E" 
+        stroke-width="4"
+        stroke-linecap="round"/>
+        
+  <!-- Small chat bubble -->
+  <circle cx="150" cy="60" r="15" fill="white"/>
+  <circle cx="170" cy="45" r="10" fill="white"/>
+</svg>
